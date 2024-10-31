@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  gap: 20px; /* Espaciado entre tarjetas */
+  padding: 20px; /* Espaciado alrededor de la lista */
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px; /* Ancho fijo para las tarjetas */
+  text-align: center; /* Centra el texto dentro de la tarjeta */
+  padding: 10px; /* Espaciado interno */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s; /* Efecto de transición */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Escala ligeramente la tarjeta al pasar el ratón */
+}
+
+.product-card img {
+  width: 100%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
+  border-radius: 8px 8px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+.product-price {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff; /* Color del precio */
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 20px;
+}
